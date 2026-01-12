@@ -1,9 +1,55 @@
-title: Re:Fined - Vanilla OST Addon [KH2]
+title: Kingdom Hearts II - Re:Fined | Vanilla OST [Slot 1]
 originalAuthor: TopazTK
-description: The Vanilla Music Addon for Kingdom Hearts II - Re:Fined.
+description: Vanilla Music Pack [Slot 1] for Kingdom Hearts II - Re:Fined.
 assets:
 
 # === The Soundtrack ===
+
+- name: msg/us/sys.bar
+  method: binarc
+  source:
+  - name: sys
+    type: list
+    method: kh2msg
+    source:
+    - name: msg/sys.yml
+      language: en
+- name: msg/fr/sys.bar
+  method: binarc
+  source:
+  - name: sys
+    type: list
+    method: kh2msg
+    source:
+    - name: msg/sys.yml
+      language: fr
+- name: msg/sp/sys.bar
+  method: binarc
+  source:
+  - name: sys
+    type: list
+    method: kh2msg
+    source:
+    - name: msg/sys.yml
+      language: sp
+- name: msg/it/sys.bar
+  method: binarc
+  source:
+  - name: sys
+    type: list
+    method: kh2msg
+    source:
+    - name: msg/sys.yml
+      language: it
+- name: msg/gr/sys.bar
+  method: binarc
+  source:
+  - name: sys
+    type: list
+    method: kh2msg
+    source:
+    - name: msg/sys.yml
+      language: gr
 
 - name: bgm/ps2md082.win32.scd
   package: kh2_first
